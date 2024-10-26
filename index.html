@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='https://unpkg.com/webcam-easy/demo/style/webcam-demo.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style/virtual-glasses.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style/virtual-glasses.css'>
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>  
     <script src="https://unpkg.com/@tensorflow/tfjs-core@2.4.0/dist/tf-core.min.js"></script>
     <script src="https://unpkg.com/@tensorflow/tfjs-converter@2.4.0/dist/tf-converter.min.js"></script>
@@ -15,7 +15,7 @@
     <script src="https://unpkg.com/@tensorflow/tfjs-backend-cpu@2.4.0/dist/tf-backend-cpu.min.js"></script>
     <script src="https://unpkg.com/@tensorflow-models/face-landmarks-detection@0.0.1/dist/face-landmarks-detection.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
-    <script type="text/javascript" src="js/webcam-ui-lib.js"></script>
+    <script type="text/javascript" src="./js/webcam-ui-lib.js"></script>
 </head>
 <body>
     <main id="virtual-glasses-app">
@@ -38,7 +38,7 @@
             </div>
 
             <div id="glasses-slider">
-                <img id="arrowLeft" src="images/arrow-left.png">
+                <img id="arrowLeft" src="./images/arrow-left.png">
                 <div id="glasses-list">
                     <ul>
                         <li class="selected-glasses">
@@ -132,6 +132,6 @@
         </div>
         <div class="md-overlay"></div>
     </main>
-    <script type="module" src='js/virtual-glasses.js'></script>
+    <script type="module" src='./js/virtual-glasses.js'></script>
 </body>
 </html>

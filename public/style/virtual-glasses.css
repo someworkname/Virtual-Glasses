@@ -45,6 +45,10 @@
     position: absolute;
     top: 0;
     z-index: 888!important;
+
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .loading{
