@@ -14,15 +14,32 @@ Allowing users to try on various 3D glasses in real-time.
 ## Installing
 Clone this repository to your local computer
 ``` bash
-git https://github.com/bensonruan/Virtual-Glasses.git
+git clone https://github.com/someworkname/Virtual-Glasses.git
+cd Virtual-Glasses
+npm ci
 ```
-Install three.js
-``` bash
-npm install --save three
-```
-Point your localhost to the cloned root directory
 
-Browse to http://localhost/index.html 
+To run locally, run (view on: http://localhost:5173 by default):
+```bash
+npm run dev
+```
+
+
+To build:
+```bash
+npm run build
+```
+
+To preview the build (view on: http://localhost:4173 by default):
+```bash
+npm run preview
+```
+
+### Note:
+
+The build directory is `dist/`. You can set the root path of your web server to this directory when deploying.
+
+
 
 ## Face Keypoints 
 The facemesh detected keypoints that used for overlay the 3D Glasses:
